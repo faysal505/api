@@ -5,9 +5,7 @@ import requests
 app = Flask(__name__)
 
 
-# @app.route('/')
-# def hoem():
-#     return render_template('link.html')
+
 
 @app.route("/<string:nid>/<string:dob>")
 def vata(nid, dob):
